@@ -3,7 +3,7 @@ materias = int(input("Quantas máterias?: "))
 notas = []
 
 for i in range(materias):
-    nota = float(input(f'Digite sua nota {i + 1}: '))
+    nota = float(input(f'Digite sua nota {i}: '))
     notas.append(nota)
 
 sum_notas = sum(notas)
