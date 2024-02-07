@@ -1,17 +1,12 @@
 def fatorial(num):
-
     if num <= 0:
-        print('Não existe fatorial de zero ou número negativo ')
-    else:
-        for i in range(1, num):
-            mult =  i * num
-            soma.append(mult)
-
+       return "Não existe fatorial de zero ou número negativo."
+    result = 1
+    for i in range(1, num + 1):
+        result *= i
+    return result
 
 num = int(input('Insira um número: '))
 resposta = fatorial(num)
-soma = []
-total = sum(soma)
 
-
-print(f'O fatorial de {num} é {total}')
+print(f'O fatorial de {num} é {resposta}')
