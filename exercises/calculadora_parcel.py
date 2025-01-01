@@ -25,3 +25,4 @@ parcela = (emprestimo * taxa_juros) / (1 - (1 + taxa_juros) ** -numero_parcelas)
 total_pago = parcela * numero_parcelas
 print(f"O valor da parcela será de R$ {parcela:.2f} e o total pago no final será {parcela * numero_parcelas:.2f}")
 print(f"Você terá pago {total_pago - emprestimo:.2f}" )
+
