@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph "Internet"
         User[👤 Usuário Final]
