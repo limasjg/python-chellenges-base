@@ -1,4 +1,4 @@
-```mermaid
+````mermaid
 graph TD
     subgraph "Internet"
         User[👤 Usuário Final]
@@ -78,4 +78,4 @@ graph TD
     style CW fill:#f1c0e8
     style IAM fill:#f1c0e8
     style ASG fill:#f1c0e8
-```
+````
